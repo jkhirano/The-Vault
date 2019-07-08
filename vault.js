@@ -4,8 +4,6 @@ module.exports = function() {
 
   function setValue(key, value) {
     myVault[key] = value;
-    console.log(">>>>>>", myVault);
-    // console.log(value)
 
     return myVault[key];
   }
